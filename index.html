@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript_day4</title>
+</head>
+<body>
+    <h2  id="jsclass" style="text-align: center; color: red;"></h2>
+    <p id="exper"></p>
+    <p id="jsclass2"></p>
+    <p id="plus"></p>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="sub2"></p>
+    <p id="mul"></p>
+    <p id="mul2"></p>
+    <p id="divi"></p>
+    <p id="divi2"></p>
+    <P id="modu"></P>
+    <p id="modu2"></p>
+    <p id="expo"></p>
+    <p id="expo2"></p>
+    
+
+    <script>
+        document.getElementById('exper').innerHTML = "<b>MY EXPERIENCE:</b> I have been able to learn how to add String with number, How to concatenate two or more strings together, how to add numbers that will give you correct answer and how to add mor than one strings together.  "
+        document.getElementById('jsclass').innerHTML = 'MY EXPERIENCE IN JAVASCRIPT DAY 4';
+        document.getElementById('jsclass2').innerHTML = 'Arithmetic Operator in Javascript';
+
+        // ADDITION
+        let a = 5;
+        let b = 9;
+        let c = a+b;
+        document.getElementById('plus').innerHTML = '<b>1. ADDITION </b>Addition Operator Add two numbers together example';
+        document.getElementById('add').innerHTML = "a+b =" + c; 
+         
+        //SUBTRACTION
+        let d = 10;
+        let e = 4;
+        let f = d-e;
+        document.getElementById('sub').innerHTML = '<b>2. SUBTRACTION:  </b> The subtraction operator (-) subtracts numbers Example';
+        document.getElementById('sub2').innerHTML = "d-e =" + f; 
+        
+      
+        
+        // MULTIPLICATION
+        let k = 3;
+        let m = 4;
+        let n = k*m;
+        document.getElementById('mul').innerHTML = '<b>3. MULTIPLICATION: </b> The multiplication operator (*) multiplies numbers, Example';
+        document.getElementById('mul2').innerHTML = 'k*m =' + n;
+
+        //DIVITION
+        let o = 20;
+        let g = 10;
+        let p = o/g;
+
+        document.getElementById('divi').innerHTML = "<b> DIVISION </b> The division operator (/) divides numbers, Example"
+        document.getElementById('divi2').innerHTML = "o/g = " + p;
+
+        //MODULUS 
+        let x = 30;
+        let y = 20;
+        let z = x%y;
+
+
+        document.getElementById('modu').innerHTML = "<b> MODULUS :</b> The modulus operator (%) returns the division remainder."
+        document.getElementById('modu2').innerHTML = "x%y =" + z;
+
+    //Exponentiation
+
+        let j = 40;
+        let l = 30;
+        let ba = j**l;
+
+        document.getElementById('expo').innerHTML = "<b> EXPONENTIATION </b> The exponentiation operator (**) raises the first operand to the power of the second operand.";
+        document.getElementById('expo2').innerHTML = " v = j**l =" + ba; 
+</script>
+
+<h2 id="comp1" style="color: red; text-align: center;"></h2>
+<p id="comp"></p>
+<p id="comp2"></p>
+<P id="grr2"></P>
+<p id="grr1"></p>
+ 
+ 
+<p id="hhh2"></p>
+<p id="cat"></p>
+<p id="cat2"></p>
+ 
+ 
+<p id="hhh"></p>
+<p id="nq"></p>
+<p id="demo1"></p>
+<p id="uuu"></p>
+<p id="demo2"></p>
+<p id="mmm2"></p>
+<p id="mmm"></p>
+ 
+<script>
+    
+    let text1 = 700;
+    let text2 = 400;
+    let result = text1 < text2;
+    document.getElementById('comp1').innerHTML = "JavaScript Comparison Operators"
+document.getElementById("comp2").innerHTML = " Is A less than B? " + result;
+    document.getElementById('comp').innerHTML = "<b>LESS THAN</b>"
+
+
+    let text11 = "70";
+    let text12 = "30";
+    let result2 = text11 > text12;
+   document.getElementById("grr1").innerHTML = "Is 70 GREATER THAN 30? " + result2;
+   document.getElementById('grr2').innerHTML = "<b>GREATER THAN</b>"
+     
+
+   // greater than  or equal
+   let bag = 5;
+   document.getElementById('hhh2').innerHTML = "<b> greater than or equal to</b> "
+document.getElementById("hhh").innerHTML = "bag = 5;" + (bag >= 5);
+ 
+
+
+// less than or equal to
+let cat = 5;
+document.getElementById("cat").innerHTML = "cat = 5;" + (cat >= 8);
+document.getElementById('cat2').innerHTML = "<b> less than or equal to</b "
+
+   
+     ////===	equal value and equal type
+
+    let oo = 5;
+document.getElementById("demo1").innerHTML = "oo === 5";
+document.getElementById('nq').innerHTML = "<b>equal value and equal type</b>"
+
+ 
+//not eqaul to
+document.getElementById('uuu').innerHTML = "<b> !=	not equal </b>"
+let xx = 5;
+document.getElementById("demo2").innerHTML =  "xx = 5.....xx != 8 "+(xx != 8);
+document.getElementById('uuu').innerHTML = "<b> !=	not equal </b>"
+
+//	not equal value or not equal type
+let mmm = 5;
+document.getElementById("mmm").innerHTML = "let mmm = 5;" + (mmm !== 5);
+document.getElementById('mmm2').innerHTML = "<b>not equal value or not equal type</b>"
+
+</script>
+
+<h1 id="logi" style="text-align: center; color: red;"></h1>
+<p id="logi2"></p>
+<p id="example"></p>
+<h2 id="string" style="text-align: center; color: red;"></h2>
+<p id="string2"></p>
+<p id="exam"></p>
+
+
+
+<script>
+    document.getElementById('logi').innerHTML = "JavaScript Logical Operators";
+    document.getElementById('logi2').innerHTML = "We have 3 types of logical operator. <br> <br>The AND operator is represented with two ampersands &&: <b> AND && \
+        </b> <br> <br> The “OR” operator is represented with two vertical line symbols: <b> OR || </b> <br> <br>\
+          The boolean NOT operator is represented with an exclamation sign !. <b>NOT !</b>"
+
+          document.getElementById('example').innerHTML = "<b>EXAMPLES </b> <br><br>  (x < 10 && y > 1) is true <br> (x == 5 || y == 5) is false <br> !(x == y) is true";
+
+          document.getElementById('string').innerHTML = "String Operator"
+          document.getElementById('string2').innerHTML = "A string operator in JavaScript, simply put, is an operator that operates on a string. There are only two operators that JavaScript supports for modifying a string. These operators allow you to join one string to another easily. These operators are called “concatenate” and “concatenate assignment“."
+          document.getElementById('exam').innerHTML = "The + operator concatenates (adds) strings. <br> <b>EXAMPLE</b> <br> <br> 'str1' + 'str2' = String are joined.... Results in 'str1str2' <br> The <b>+=</b> assignment operator can also be used to add (concatenate) strings: "
+
+
+</script>
+<h2 id="asi" style="text-align: center; color: red;"></h2>
+<p id="asin" ></p>
+<p id="adds"></p>
+<p id="add2"></p>
+<p id="sub1"></p>
+<p id="mull"></p>
+<p id="mull2"></p>
+<p id="div"></p>
+<p id="mudo"></p>
+
+    
+<script>
+    //Assignment Operators
+    document.getElementById('asin').innerHTML = "<b>1.The = Operator </b><br> The Simple Assignment Operator assigns a value to a variable..Eg <br> <br> Value of x is: 10";
+    document.getElementById('asi').innerHTML = "Assignment Operators";
+    document.getElementById('adds').innerHTML = "<b>2.The += Operator: </b>"; 
+    document.getElementById('add2').innerHTML = "The Addition Assignment Operator adds a value to a variable. e.g <br> let x = 10;  x += 5; Value of x is: 15"
+    document.getElementById('sub1').innerHTML = "<b>3. The -= Operator</b> <br> <br> The Subtraction Assignment Operator subtracts a value from a variable... e.g <br>let x = 10; x -= 5; Value of x is: 5"
+    document.getElementById('mull').innerHTML = "<b>4. The *= Operator</b> <br>The Multiplication Assignment Operator multiplies a variable.....E,g let x = 10;x *= 5;  ";
+    document.getElementById('mull2').innerHTML = "<b>5. The **= Operator</b> <br> The Exponentiation Assignment Operator raises a variable to the power of the operand...E.g<br> let x = 10;x **= 5; Value of x is: 100000"
+    document.getElementById('div').innerHTML = "<b>6. The /= Operator</b> <br> The Division Assignment Operator divides a variable. let x = 10;x /= 5; output = 2"
+    document.getElementById('mudo').innerHTML = "<b>7. The %= Operator</b> <br>The Remainder Assignment Operator assigns a remainder to a variable.<br><br> let x = 10;x %= 5; Value is 0"
+    
+
+</script>
+
+
+
+
+
+    
+
+
+
+</body>
+</html>
